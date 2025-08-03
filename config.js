@@ -425,4 +425,5 @@ fs.watchFile(fichier, () => {
     console.log(`Updates ${__filename}`);
     delete require.cache[fichier];
     require(fichier);
+    console.log("🔍 Real bot script URL:", exports.BWM_XMD);
 });
