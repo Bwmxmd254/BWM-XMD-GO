@@ -9,22 +9,22 @@
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
-    "PREFIX": {
+    "PREFIX": {hope
       "description": "Choose your prefix for your bot",
       "value": ".",
       "required": true
     },
-    "AUTO_REJECT_CALL": {
+    "AUTO_REJECT_CALL": {0740712007
       "description": "Enter yes for your bot to auto reject calls",
       "value": "no",
       "required": false
     },
-    "AUTO_BIO": {
+    "AUTO_BIO": {Hope_boy 
       "description": "Enter yes for your bot to auto update bio",
       "value": "no",
       "required": false
     },
-    "AUTO_REPLY_STATUS": {
+    "AUTO_REPLY_STATUS": {😅😅
       "description": "Enter yes for your bot to notify people that you have viewed there status",
       "value": "no",
       "required": false
@@ -59,12 +59,12 @@
       "value": "https://url.bwmxmd.online/Adams.zwu780jq.jpg,https://url.bwmxmd.online/Adams.dlmegzh8.mp4",
       "required": false
     },
-    "PUBLIC_MODE": {
+    "PUBLIC_MODE": {🤑
       "description": "Type yes for public mode or no for private mode",
       "value": "yes",
       "required": false
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_API_KEY": {🫡
       "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
       "required": false 
@@ -74,7 +74,7 @@
       "value": "",
       "required": false 
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {0740712007
       "description": "Enter your number eg, 2547xxxxxxx",
       "value": "",
       "required": false 
@@ -94,13 +94,13 @@
       "value": "yes",
       "required": false 
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {𓄂⍣⃝𝗛.𝗕𝗢𝗬≛⃝🥷💥
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "hope boy",
       "required": false
     },
     "SESSION_ID": {
-      "description": "Your session ID",
+      "description": "Hopeboy_tbm42",
       "value": "",
       "required": true
     },    
@@ -121,7 +121,7 @@
     },
     "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },	  
     "GROUPANTILINK": {
