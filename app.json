@@ -27,7 +27,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254748387615",
-      "required": false
+      "required": true
     },
     "DATABASE_URL": {
       "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
