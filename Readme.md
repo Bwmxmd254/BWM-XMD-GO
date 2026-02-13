@@ -9,8 +9,8 @@
 </h1>
 
 <!-- Banner Image -->
-<p align="briantech.com">
-  <img src="https://files.catbox.moe/bkuj17.jpg" width="85%" height="auto">
+<p align="href="https://main.brian.online/scanner" target="_blank"
+  src="https://files.catbox.moe/bkuj17.jpg" width="85%" height="auto">
 </p>
 
 ---
@@ -20,9 +20,9 @@
 ### **Step 1: Get Session ID**
 Click the button below to quickly generate your WhatsApp session ID:
 
-<p align="briantech.com">
-  <a href="https://main.briantech.online/scanner" target="250">
-    <img src="https://img.shields.io/badge/🔑_GET_SESSION-000000?style=for-the-badge&color=FF0000" width="260" height="54"/>
+<p align="https://main.briantech.com">
+  <a href="https://main.briantech.online/scanner" target="_blank">
+ <img src="https://img.shields.io/badge/🔑_GET_SESSION-000000?style=for-the-badge&color=FF0000" width="260" height="54"/>
   </a>
 </p>
 
