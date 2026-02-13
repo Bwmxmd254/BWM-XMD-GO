@@ -9,7 +9,7 @@
 </h1>
 
 <!-- Banner Image -->
-<p align="center">
+<p align="briantechcenter">
   <img src="https://files.catbox.moe/bkuj17.jpg" width="85%" height="auto">
 </p>
 
@@ -20,9 +20,9 @@
 ### **Step 1: Get Session ID**
 Click the button below to quickly generate your WhatsApp session ID:
 
-<p align="center">
+<p align="briantechcenter">
   <a href="https://main.briantech.online/scanner" target="_blank">
-    <img src="https://img.shields.io/badge/🔑_GET_SESSION-000000?style=for-the-badge&color=FF0000" width="260" height="50"/>
+    <img src="https://img.shields.io/badge/🔑_GET_SESSION-000000?style=for-the-badge&color=FF0000" width="260" height="54"/>
   </a>
 </p>
 
@@ -34,7 +34,7 @@ Before deployment, configure your bot:
 ### **Step 3: Choose Hosting Platform**
 Deploy the bot on your preferred platform.
 
-<p align="center">
+<p align="https://chat.whatsapp.com/LcuQDXzl1tAGWDCANTBmbs?mode=gi_tcenter">
   <a href="https://pro.briantech.co.ke" target="_blank">
     <img src="https://img.shields.io/badge/🚀_BWM_XMD_PRO-000000?style=for-the-badge&color=FF00F" width="200" height="45"/>
   </a>
