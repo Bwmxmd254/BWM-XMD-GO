@@ -1,3 +1,4 @@
+
 <!-- Glowing Header -->
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
@@ -30,7 +31,6 @@ Before deployment, configure your bot:
 - **Option A:** Edit `config.env` file
 - **Option B:** Use environment variables on your hosting platform
 
-
 ### **Step 3: Choose Hosting Platform**
 Deploy the bot on your preferred platform.
 
@@ -47,6 +47,28 @@ Deploy the bot on your preferred platform.
   <a href="https://railway.app?referralCode=AqkNn4" target="_blank">
     <img src="https://img.shields.io/badge/🚀_RAILWAY-000000?style=for-the-badge&color=purple" width="200" height="45"/>
   </a>
+</p>
+
+<br>
+
+<!-- 🎥 VIDEO TUTORIAL - GitHub README Compatible -->
+<p align="center">
+  <strong>🎬 Watch Full Deployment Tutorial (2026)</strong><br>
+  <em>How to deploy BWM XMD on its own hosting - No Deployer Needed!</em>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" target="_blank">
+    <img src="https://img.shields.io/badge/📺_WATCH_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" width="300" height="50"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/4r5OewBgLIs?si=azJ2ByJjZu5ZjrOC" target="_blank">
+    <img src="https://img.youtube.com/vi/4r5OewBgLIs/0.jpg" width="400" height="225" alt="BWM XMD Deployment Tutorial">
+  </a>
+  <br>
+  <sub>⚠️ <strong>Click the image or button above to watch on YouTube</strong> (GitHub does not support embedded video players)</sub>
 </p>
 
 ### **Step 4: Start Using**
