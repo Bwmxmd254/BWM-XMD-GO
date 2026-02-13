@@ -20,7 +20,7 @@
 ### **Step 1: Get Session ID**
 Click the button below to quickly generate your WhatsApp session ID:
 
-<p align="https://main.briantech.com">
+<p align="https://main.brian.com">
   <a href="https://main.briantech.online/scanner" target="_blank">
  <img src="https://img.shields.io/badge/🔑_GET_SESSION-000000?style=for-the-badge&color=FF0000" width="260" height="54"/>
   </a>
