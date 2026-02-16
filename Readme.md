@@ -9,7 +9,7 @@
 </h1>
 
 <!-- Banner Image -->
-<p align="href="https://main.brian.online/scanner" target="_blank"
+<p align="href="https://brian/scanner" target="_blank"
   src="https://files.catbox.moe/bkuj17.jpg" width="85%" height="auto">
 </p>
 
