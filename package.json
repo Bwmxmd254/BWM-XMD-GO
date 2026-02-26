@@ -1,5 +1,5 @@
 {
-  "name": "BWM-XMD",
+  "name": "RAHL-XMD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -22,12 +22,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "BWM-XMD",
+    "RAHL-XMD",
     "whatsapp",
     "whatsapp-bot",
     "Ibrahimadams"
   ],
-  "author": "Ibrahimadams",
+  "author": "lord rahl",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "latest",
