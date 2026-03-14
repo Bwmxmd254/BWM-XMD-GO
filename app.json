@@ -85,12 +85,12 @@
     "ANTI_DELETE": {
       "description": "Anti-delete feature: on or off",
       "value": "on",
-      "required": false
+      "required": true
     },
     "ANTI_LINK": {
       "description": "Anti-link feature: off, warn, delete, or remove",
-      "value": "off",
-      "required": false
+      "value": "on",
+      "required": true
     },
     "WARN_LIMIT": {
       "description": "Number of warnings before removal (for warn mode)",
