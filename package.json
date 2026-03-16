@@ -60,7 +60,7 @@
     "pm2": "latest",
     "sequelize": "latest",
     "sharp": "^0.32.6",
-    "sqlite3": "latest",
+    "sqlite3": "^5.1.7",
     "stream": "latest",
     "util": "latest",
     "wa-sticker-formatter": "^4.4.4",

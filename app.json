@@ -28,10 +28,6 @@
       "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
       "required": true
     },
-    "DATABASE_URL": {
-      "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
-      "required": false
-    },
     "BOT_NAME": {
       "description": "Your bot name",
       "value": "BWM XMD",
@@ -226,8 +222,19 @@
       "description": "Menu bottom divider",
       "value": "▬▬▬▬▬▬▬▬▬▬",
       "required": false
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection URL. Leave blank to use the auto-provisioned Heroku Postgres addon, or supply your own (Neon, Supabase, Render, etc.). Falls back to SQLite if neither is available.",
+      "value": "",
+      "required": false
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    }
+  ],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
