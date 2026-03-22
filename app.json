@@ -25,7 +25,7 @@
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254743710474",
       "required": true
     },
     "BOT_NAME": {
@@ -65,7 +65,7 @@
     },
     "ANTI_CALL": {
       "description": "Anti-call feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ANTI_CALL_ACTION": {
@@ -90,7 +90,7 @@
     },
     "WARN_LIMIT": {
       "description": "Number of warnings before removal (for warn mode)",
-      "value": "3",
+      "value": "6",
       "required": false
     },
     "ANTI_TAG": {
@@ -115,7 +115,7 @@
     },
     "AUTO_STATUS_LIKE": {
       "description": "Auto-like status: on or off",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -159,13 +159,13 @@
       "required": false
     },
     "PRESENCE_PRIVATE": {
-      "description": "Presence in private chats: off, online, typing, or recording",
-      "value": "off",
+      "description": "Presence in private chats: on, online, typing, or recording",
+      "value": "on",
       "required": false
     },
     "PRESENCE_GROUP": {
-      "description": "Presence in group chats: off, online, typing, or recording",
-      "value": "off",
+      "description": "Presence in group chats: on, online, typing, or recording",
+      "value": "on",
       "required": false
     },
     "BOT_URL": {
