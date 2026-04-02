@@ -21,11 +21,11 @@
   "success_url": "/",
   "env": {
     "SESSION": {
-      "description": "Add your session id here",
+      "description": "XMDIAAAAAAAAA8VWy47jNhb9Fy5TRkrvh4ECQr1s+dWWn2UHWdASJVO2HiZp2aqgVtnMZjbZdZBCLzLrQYDMdn6mv6A+IZCrKt1AMp0aoIHWiqKoe885vOS534O8IAz3cQ3a34OSkgpx3Ax5XWLQBtYxjjEFLRAhjkAbZB4pg9zqCuF5EPb3POOhlCaWT9FVpdP6tMlW/jkLndlOuAH3LVAeN3sSfiIg7V3vtLF7YPpi4593GtYyIe1Xu12AdCxVo3TnbtCmsrJ5cQPum4iIUJInbrnFGaZo38f1GBH6Ovj9znZSH+azibcKpLDMszjesfFCh7tbseMurMntKbgrzS5cnl4Hv44Ki/o2DFNdJWL/mvQOtwfmTCt9ca50p5sn0mptxxsr8J/gM5LkOPIjnHPC61frvrNm18uFMI+HaWU5g6NO57uxHg09SKI36fJaCkVSzoRgkb9S97nPVPXkGF2yVCH0t3f0MBklRxgU8140dpeB1I0T0y30pfsx8DF9qZXd/6O77xT9mo/NUpwrqXdIykopHbfjn3IyreUoYUZ6NXVstPbC18Hv8m41Ic5ysQ6UbLsNqdGB45Bfo/OM314FIzpWYLr2DGInH+AjfqSfLu7teB2gqON0rLTKq9WayOF8M4fdMykngTlPhSAwe7eZH3td9ZrZh6rDnL5Wp2cq78ZlyZTzLJ7aTPamh77gqSd4ToKbC6Mdrv0ItMX7FqA4IYxTxEmRX+ZkoQVQVE1xSDG/yAv4KSmUEfH32l3NN4fUr/q5OKwG2ml5a8WrtdLj+cGprDdOcgNaoKRFiBnDUZcwXtB6iBlDCWag/e1lpxrSFGcFxz0SgTaQVEUURMGQNUH8hn192iLOUFl+nWMOWiCmRTbEoM3pEbfA5QdoW64ji4Ii2brjWdCyXQF6mu5CaIm2o4IWYDiPMB1clmuiqGmqIsmipglt+Zs9if5YMc7/FgCKIooZI3kyLKJmp8q80TB7YjUjGWYcZSVoi7quiopoaMp963MRVVTFc1xJciRZgYYkOY7tQNt1oKI7hvmFiRrq5yMq6I5tKVBybdtUTUmXPQ86uii60NRU98sSNQXj8xF1BU1XoSHo0NEgFKGqi5pre5JuqrZpfGGiov4ZiUIVQtmVTFtWVahLmuXatq2aiqNZ0PnSRI3771ogx2f+ZCLN1SdrLRATyvg8P5b7AkUvDvPyEYVhccz5tM5DuxlgCtrih2nMOckT1kh3zBENt6TCdoMTtGO0Z/iP2xZTHL2I9dxB2E+wF6tgbU/8pgyyizn8Sfy2/Gf2+09ImKMmEHh896//vP/h3ft//vL48PbXx4e3/318ePvb48NP/3j/87/f//Dw+O7Ht181kj2TaXJHmCOyZ6AN7BEKiA5dd5R1j0zpdKCbQDuB4AP5F0d7coxCOb3pFKziUo/Zsw3ackfs1sqkV6XOoVos+qOuNAmQmk5WN38RBLTBXTbwplMtuo4cOj+7WTWZ+IrI1tlwqRVY1kfrU50fPJoFRBTDw0wX40qhiWvW/Y3f28xreT8yhv4i2+NJtytvddcsbHjTZItwRUL8cbLeejTMzaWTrw/ZyuudRqzOxXNoR6fBIgu4ftcroXcVbm8ns+HeOF9R707fqMHyyr0zTgc4EOzCEm8H/ojQZT0z7UVS9bfJk9devH7/3GORZxckl9eY4EvL8rxHf7fNT7ibYhTuWx+FeO6B/kcfYaE3Q2d7GAz0iGzgTpKKTWBOjKM73SgnjYqLaToxd/POcSUswX1zKso94nFBM9AGKI9ocakjWhyb6vbzuPhEMhv6vhMkXkN8jxiHH07MX/iHaj6tGtOi7CK2BW0gZ3sxnTblX8OynHLEXw4ggM3j2wTc/w7bnDu3KAwAAA==",
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 2547123456797",
+      "description": "254101083601",
       "required": true
     },
     "BOT_NAME": {
