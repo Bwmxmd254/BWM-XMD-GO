@@ -30,7 +30,7 @@
     },
     "BOT_NAME": {
       "description": "Your bot name",
-      "value": "BWM XMD",
+      "value": "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯 𝑿𝑴𝑫",
       "required": false
     },
     "PREFIX": {
@@ -45,7 +45,7 @@
     },
     "PACKNAME": {
       "description": "Sticker pack name",
-      "value": "BWM XMD",
+      "value": "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯 𝑿𝑴𝑫",
       "required": false
     },
     "TIMEZONE": {
@@ -86,7 +86,7 @@
     "ANTI_LINK": {
       "description": "Anti-link feature: off, warn, delete, or remove",
       "value": "on",
-      "required": false
+      "required": true
     },
     "WARN_LIMIT": {
       "description": "Number of warnings before removal (for warn mode)",
