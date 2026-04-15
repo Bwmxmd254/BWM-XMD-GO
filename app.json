@@ -1,214 +1,244 @@
 
-
 {
-  "name": "BWM-XMD-QUANTUM",
-  "description": "Best WhatsApp bot developed by Ibrahim Adams",
-  "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
-  "repository": "https://github.com/ekitale/maths-project",
+  "name": "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯-𝑿𝑴𝑫",
+  "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯-𝑿𝑴𝑫",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://github.com/Bwmxmd254/BWM-XMD-GO#readme",
+  "repository": "https://github.com/Bwmxmd254/BWM-XMD-GO.git",
+  "logo": "https://files.catbox.moe/d837en.png",
   "success_url": "/",
-  "stack": "heroku-24",
   "env": {
-    "PREFIX": {
-      "description": "Choose your prefix for your bot",
-      "value": ".",
+    "SESSION": {
+      "description": "Add your session id here",
       "required": true
     },
-    "AUTO_REJECT_CALL": {
-      "description": "Enter yes for your bot to auto reject calls",
-      "value": "no",
-      "required": false
-    },
-    "AUTO_BIO": {
-      "description": "Enter yes for your bot to auto update bio",
-      "value": "no",
-      "required": false
-    },
-    "AUTO_REPLY_STATUS": {
-      "description": "Enter yes for your bot to notify people that you have viewed there status",
-      "value": "no",
-      "required": false
-    },
-    "REPLY_STATUS_TEXT": {
-      "description": "Enter here your message for your bot to notify people that you have viewed there status",
-      "value": "ʏᴏᴜʀ sᴛᴀᴛᴜs ʜᴀᴠᴇ ʙᴇᴇɴ ᴠɪᴇᴡᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅",
-      "required": false
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
-    },
-    "AUTO_READ": {
-      "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "no",
-      "required": false
+    "OWNER_NUMBER": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254743710474",
+      "required": true
     },
     "BOT_NAME": {
-      "description": "Name for your bot",
-      "value": "BWM-XMD",
+      "description": "Your bot name",
+      "value": "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯 𝑿𝑴𝑫",
       "required": false
     },
-    "BOT_URL": {
-      "description": "Image or video url for your bot menu",
-      "value": "https://url.bwmxmd.online/Adams.zwu780jq.jpg,https://url.bwmxmd.online/Adams.dlmegzh8.mp4",
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": ".",
       "required": false
     },
-    "PUBLIC_MODE": {
-      "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+    "MODE": {
+      "description": "Bot mode: public or private",
+      "value": "public",
       "required": false
     },
-    "HEROKU_API_KEY": {
-      "description": "Enter your Heroku API key to be able to control your vars",
-      "value": "",
-      "required": false 
+    "PACKNAME": {
+      "description": "Sticker pack name",
+      "value": "𝑮𝑾𝑰𝑱𝑰𝑻𝑬𝑪𝑯 𝑿𝑴𝑫",
+      "required": false
     },
-    "HEROKU_APP_NAME": {
-      "description": "Enter your Heroku app name to be able to control vars",
-      "value": "",
-      "required": false 
+    "TIMEZONE": {
+      "description": "Timezone for the bot",
+      "value": "Africa/Nairobi",
+      "required": false
     },
-    "OWNER_NUMBER": {
-      "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
-      "required": false 
-    },
-    "STATUS_REACT_EMOJIS": {
-      "description": "Enter your auto like status emojis",
-      "value": "💚,🚀,🌎,✅",
-      "required": false 
-    },
-    "AUTO_REACT": {
-      "description": "Enter your auto react messages",
-      "value": "no",
-      "required": false 
-    },
-    "AUTO_REACT_STATUS": {
-      "description": "Enter yes for your bot to auto like status",
-      "value": "yes",
-      "required": false 
-    },
-    "OWNER_NAME": {
-      "description": "Owner name",
+    "AUTHOR": {
+      "description": "Bot author name",
       "value": "Ibrahim Adams",
       "required": false
     },
-    "SESSION_ID": {
-      "description": "Your session ID",
-      "value": "",
-      "required": true
-    },    
-    "STARTING_BOT_MESSAGE": {
-      "description": "Enable starting message (yes/no)",
-      "value": "yes",
+    "DEVICE_MODE": {
+      "description": "Device mode: iPhone (plain text) or Android (full features with buttons)",
+      "value": "Android",
       "required": true
     },
-    "PRESENCE": {
-      "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+    "ANTI_CALL": {
+      "description": "Anti-call feature: on or off",
+      "value": "off",
       "required": false
     },
-    "ANTIDELETE_SENT_INBOX": {
-      "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
+    "ANTI_CALL_ACTION": {
+      "description": "Action when call detected: reject or block",
+      "value": "reject",
       "required": false
     },
-    "ANTIDELETE_RECOVER_CONVENTION": {
-      "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+    "ANTI_CALL_MSG": {
+      "description": "Message to send when rejecting calls",
+      "value": "Call me later",
       "required": false
-    },	  
-    "GROUPANTILINK": {
-      "description": "Enable anti-link in groups (yes/no)",
-      "value": "no",
+    },
+    "ANTI_DELETE": {
+      "description": "Anti-delete feature: on or off",
+      "value": "on",
+      "required": true
+    },
+    "ANTI_LINK": {
+      "description": "Anti-link feature: off, warn, delete, or remove",
+      "value": "on",
+      "required": true
+    },
+    "WARN_LIMIT": {
+      "description": "Number of warnings before removal (for warn mode)",
+      "value": "6",
+      "required": false
+    },
+    "ANTI_TAG": {
+      "description": "Anti-tag/status-mention feature: off, warn, delete, or remove",
+      "value": "off",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Auto-read messages: on or off",
+      "value": "off",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Auto-bio feature: on or off",
+      "value": "off",
+      "required": false
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "Auto-view status: on or off",
+      "value": "on",
+      "required": false
+    },
+    "AUTO_STATUS_LIKE": {
+      "description": "Auto-like status: on or off",
+      "value": "on",
+      "required": false
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto-reply to status: on or off",
+      "value": "off",
+      "required": false
+    },
+    "STATUS_REPLY_MSG": {
+      "description": "Auto-reply message for status views",
+      "value": "Nice status! Viewed by BWM-XMD Bot",
+      "required": false
+    },
+    "STATUS_LIKE_EMOJIS": {
+      "description": "Comma-separated emojis for liking status",
+      "value": "❤️,💜,💙,🤍,💛",
       "required": false
     },
     "CHATBOT": {
-      "description": "Enable text chatbot (yes/no)",
-      "value": "no",
+      "description": "Chatbot feature: on or off",
+      "value": "off",
       "required": false
     },
-    "WELCOME_MESSAGE": {
-      "description": "Enable welcoming message in groups (yes/no)",
-      "value": "no",
+    "CHATBOT_MODE": {
+      "description": "Chatbot mode: private, group, or both",
+      "value": "private",
       "required": false
     },
-    "GOODBYE_MESSAGE": {
-      "description": "Enable  goodbye in groups (yes/no)",
-      "value": "no",
+    "CHATBOT_TRIGGER": {
+      "description": "Trigger word for chatbot",
+      "value": "dm",
       "required": false
     },
-    "AUDIO_CHATBOT": {
-      "description": "Enable audio chatbot (yes/no)",
-      "value": "no",
+    "CHATBOT_RESPONSE": {
+      "description": "Default chatbot response type: text or audio",
+      "value": "text",
+      "required": false
+    },
+    "CHATBOT_VOICE": {
+      "description": "Voice for audio responses (Kimberly, Salli, Joey, etc)",
+      "value": "Kimberly",
+      "required": false
+    },
+    "PRESENCE_PRIVATE": {
+      "description": "Presence in private chats: on, online, typing, or recording",
+      "value": "on",
+      "required": false
+    },
+    "PRESENCE_GROUP": {
+      "description": "Presence in group chats: on, online, typing, or recording",
+      "value": "on",
+      "required": false
+    },
+    "BOT_URL": {
+      "description": "Comma-separated list of menu image/video URLs",
+      "value": "https://files.catbox.moe/d837en.png",
       "required": false
     },
     "MENU_TOP_LEFT": {
-      "description": "Menu top left design",
-      "value": "┌─❖",
+      "description": "Menu top left symbol",
+      "value": "*┌─❖*",
       "required": false
     },
     "MENU_BOT_NAME_LINE": {
-      "description": "Bot name line",
-      "value": "│ ",
+      "description": "Menu bot name line prefix",
+      "value": "*│",
       "required": false
     },
     "MENU_BOTTOM_LEFT": {
-      "description": "Menu bottom left",
-      "value": "└┬❖",
+      "description": "Menu bottom left symbol",
+      "value": "*└┬❖*",
       "required": false
     },
     "MENU_GREETING_LINE": {
-      "description": "Greeting line",
-      "value": "┌┤ ",
+      "description": "Menu greeting line prefix",
+      "value": "   *│",
       "required": false
     },
     "MENU_DIVIDER": {
-      "description": "Menu divider",
-      "value": "│└────────┈⳹",
+      "description": "Menu divider line",
+      "value": "   *└────────┈❖*",
       "required": false
     },
     "MENU_USER_LINE": {
-      "description": "User line in menu",
-      "value": "│🕵️ ",
+      "description": "Menu user line prefix",
+      "value": "> 🕵️",
       "required": false
     },
     "MENU_DATE_LINE": {
-      "description": "Date line in menu",
-      "value": "│📅 ",
+      "description": "Menu date line prefix",
+      "value": "> 📅",
       "required": false
     },
     "MENU_TIME_LINE": {
-      "description": "Time line in menu",
-      "value": "│⏰ ",
+      "description": "Menu time line prefix",
+      "value": "> ⏰",
       "required": false
     },
     "MENU_STATS_LINE": {
-      "description": "Stats line in menu",
-      "value": "│⭐ ",
+      "description": "Menu stats line prefix",
+      "value": "> ⭐",
       "required": false
     },
     "MENU_BOTTOM_DIVIDER": {
-      "description": "Bottom divider of menu",
-      "value": "└─────────────┈⳹",
+      "description": "Menu bottom divider",
+      "value": "▬▬▬▬▬▬▬▬▬▬",
+      "required": false
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection URL. Leave blank to use the auto-provisioned Heroku Postgres addon, or supply your own (Neon, Supabase, Render, etc.). Falls back to SQLite if neither is available.",
+      "value": "",
       "required": false
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "basic"
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
     }
-  },
+  ],
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
-  ]
+  ],
+  "stack": "heroku-24"
 }
